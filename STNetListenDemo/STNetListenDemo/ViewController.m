@@ -10,6 +10,7 @@
 #import "STNetListen.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
 @end
 
@@ -17,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%@",[[STNetListen shareNetListen] description]);
+    STNetListen *nl = [STNetListen shareNetListen];
+    _statusLabel.text = [NSString stringWithFormat:@"%@\n%@",[nl carrierName],[nl statusDescripetion]];
 }
 
 
