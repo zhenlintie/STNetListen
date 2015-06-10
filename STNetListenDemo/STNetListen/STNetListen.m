@@ -89,27 +89,22 @@ static id _st_observer = nil;
         case STTelStatusGPRS:
         {
             return @"GPRS";
-            break;
         }
         case STTelStatusEdge:
         {
             return @"E";
-            break;
         }
         case STTelStatus2G:
         {
             return @"2G";
-            break;
         }
         case STTelStatus3G:
         {
             return @"3G";
-            break;
         }
         case STTelStatus4G:
         {
             return @"4G";
-            break;
         }
         default:
             break;
