@@ -118,7 +118,7 @@ static id _st_observer = nil;
 
 - (NSString *)description{
     CTCarrier *c = _networkInfo.subscriberCellularProvider;
-    return [NSString stringWithFormat:@"(%@)(%@-%@-%@-%@)",[self statusDescripetion],c.carrierName,c.mobileCountryCode,c.mobileNetworkCode,c.isoCountryCode];
+    return [NSString stringWithFormat:@"(%@)(%@-%@-%@-%@)",[self statusDescription],c.carrierName,c.mobileCountryCode,c.mobileNetworkCode,c.isoCountryCode];
 }
 
 @end
