@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     STNetListen *nl = [STNetListen shareNetListen];
-    _statusLabel.text = [NSString stringWithFormat:@"%@\n%@",[nl carrierName],[nl statusDescripetion]];
+    _statusLabel.text = [NSString stringWithFormat:@"%@\n%@",[nl carrierName],[nl statusDescription]];
 }
 
 

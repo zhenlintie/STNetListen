@@ -84,7 +84,7 @@ static id _st_observer = nil;
     return _status;
 }
 
-- (NSString *)statusDescripetion{
+- (NSString *)statusDescription{
     switch (_status) {
         case STTelStatusGPRS:
         {

@@ -28,7 +28,7 @@ typedef NS_ENUM(NSUInteger, STTelStatus) {
 @property (nonatomic, readonly) STTelStatus status;
 
 // 蜂窝网络状态描述
-@property (nonatomic, readonly) NSString *statusDescripetion;
+@property (nonatomic, readonly) NSString *statusDescription;
 
 // 运营商名称
 @property (nonatomic, readonly) NSString *carrierName;
